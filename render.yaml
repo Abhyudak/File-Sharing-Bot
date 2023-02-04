@@ -14,20 +14,24 @@ services:
         sync: false
       - key: API_HASH 
         sync: false
-      - key: FORCE_SUB 
+      - key: FORCE_SUB_MESSAGE 
+        sync: false
+      - key: FORCE_SUB_CHANNEL
         sync: false
       - key: DATABASE_NAME 
         sync: false
       - key: DATABASE_URL 
         sync: false 
-      - key: START_PIC 
+      - key: START_MESSAGE 
         sync: false
-      - key: ADMIN 
+      - key: ADMINS 
         sync: false
       - key: TG_BOT_TOKEN
         sync: false 
       - key: OWNER_ID 
         sync: false  
       - key: CHANNEL_ID
+        sync: false
+      - key: DISABLE_CHANNEL_BUTTON
         sync: false
     autoDeploy: false 
