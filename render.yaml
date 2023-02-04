@@ -16,12 +16,18 @@ services:
         sync: false
       - key: FORCE_SUB 
         sync: false
-      - key: DB_NAME 
+      - key: DATABASE_NAME 
         sync: false
-      - key: DB_URL 
+      - key: DATABASE_URL 
         sync: false 
       - key: START_PIC 
         sync: false
       - key: ADMIN 
-        sync: false    
+        sync: false
+      - key: TG_BOT_TOKEN
+        sync: false 
+      - key: OWNER_ID 
+        sync: false  
+      - key: CHANNEL_ID
+        sync: false
     autoDeploy: false 
