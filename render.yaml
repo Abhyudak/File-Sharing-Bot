@@ -8,8 +8,6 @@ services:
     repo: https://github.com/Abhyudak/File-Sharing-Bot.git      
     branch: main
     envVars:
-      - key: BOT_TOKEN 
-        sync: false
       - key: APP_ID 
         sync: false
       - key: API_HASH 
